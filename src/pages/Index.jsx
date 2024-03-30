@@ -55,7 +55,36 @@ const Index = () => {
         </Container>
       </Box>
 
-      {/* Features Section */}
+      {}
+      <Box as="section" bg="gray.100" py={20}>
+        <Container maxW="container.lg">
+          <Heading as="h2" mb={12} size="xl" textAlign="center">
+            Why LaudIA
+          </Heading>
+          <VStack align="start" spacing={8}>
+            <Box>
+              <Heading as="h3" mb={4} size="lg">
+                Unmatched Accuracy
+              </Heading>
+              <Text>LaudIA's advanced AI algorithms deliver the highest level of accuracy in radiological analysis, reducing diagnostic errors.</Text>
+            </Box>
+            <Box>
+              <Heading as="h3" mb={4} size="lg">
+                Seamless Integration
+              </Heading>
+              <Text>Our platform integrates effortlessly with your existing PACS/RIS systems, ensuring a smooth transition and minimal disruption to your workflow.</Text>
+            </Box>
+            <Box>
+              <Heading as="h3" mb={4} size="lg">
+                Proven Results
+              </Heading>
+              <Text>LaudIA has a proven track record of improving diagnostic accuracy and efficiency in radiology practices worldwide.</Text>
+            </Box>
+          </VStack>
+        </Container>
+      </Box>
+
+      {}
       <Box as="section" id="features" py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" mb={12} size="xl" textAlign="center">
@@ -84,6 +113,29 @@ const Index = () => {
               <Text>Beneficie-se da revisão do laudo que combina conhecimento de especialistas com grandes quantidades de dados radiológicos.</Text>
             </Box>
           </Flex>
+        </Container>
+      </Box>
+
+      {}
+      <Box as="section" bg="gray.100" py={20}>
+        <Container maxW="container.lg">
+          <Heading as="h2" mb={12} size="xl" textAlign="center">
+            What Our Customers Say
+          </Heading>
+          <VStack align="start" spacing={8}>
+            <Box>
+              <Text fontSize="xl" mb={4}>
+                "LaudIA has revolutionized our radiology practice. The AI-powered insights have significantly improved our diagnostic accuracy and efficiency."
+              </Text>
+              <Text fontWeight="bold">- Dr. João Silva, Radiologista Chefe, Hospital São Paulo</Text>
+            </Box>
+            <Box>
+              <Text fontSize="xl" mb={4}>
+                "The seamless integration with our existing systems and the exceptional support from the LaudIA team made the transition to AI-assisted radiology effortless."
+              </Text>
+              <Text fontWeight="bold">- Dr. Ana Santos, Diretora de Radiologia, Clínica Radiológica Moderna</Text>
+            </Box>
+          </VStack>
         </Container>
       </Box>
 
