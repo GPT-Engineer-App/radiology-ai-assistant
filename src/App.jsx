@@ -1,4 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
 import { Box } from "@chakra-ui/react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </Box>
         <Footer />
